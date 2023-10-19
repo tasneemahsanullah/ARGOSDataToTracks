@@ -10,4 +10,9 @@
 ## Author: John.Fay@duke.edu (for ENV859)
 ##---------------------------------------------------------------------
 
+# Import packages
+import sys, os, arcpy
 
+# Set input variable (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
+outputFC = "V:/ARGOSTracking/Scratch/ARGOStrack.shp"
